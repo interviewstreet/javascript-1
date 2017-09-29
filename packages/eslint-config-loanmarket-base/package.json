@@ -19,7 +19,11 @@
   },
   "keywords": [
     "eslint",
-    "config"
+    "eslintconfig",
+    "config",
+    "loanmarket",
+    "javascript",
+    "styleguide"
   ],
   "author": "Benjamin Forster",
   "license": "MIT",
