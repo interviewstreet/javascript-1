@@ -33,6 +33,7 @@ For more advance usage checkout out the eslint documentation - https://eslint.or
 Currently Code Climate does not support importing eslint configs through NPM.
 To circumvent this limitation we provide a compiled eslint file that you can import directly in your `.codeclimate.yml`.
 
+**.codeclimate.yml**
 ```yml
 engines:
   eslint:
@@ -55,3 +56,12 @@ ratings:
 ```
 
 You will need to exclude this file from your `.gitignore`, so that the codeclimate can access it directly.
+
+**.gitignore**
+```
+# Dependency directory
+node_modules/
+# do not ignore eslint prebuilt for code climate
+node_modules/eslint-config-loanmarket-react/*
+!node_modules/eslint-config-loanmarket-react/dist
+```
