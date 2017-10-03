@@ -27,11 +27,12 @@ module.exports = {
     "react/forbid-prop-types": [
       2, { "forbid": ["any", "array"] }
     ],
-    "jsx-a11y/img-has-alt": 0,
-    "jsx-a11y/no-static-element-interactions": 0,
     "react/jsx-filename-extension": 0,
     "react/require-default-props": 0,
     "react/no-array-index-key": 0,
+    "react/display-name": 0,
+    "jsx-a11y/img-has-alt": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
     "mocha/no-exclusive-tests": "error"
   }
 };

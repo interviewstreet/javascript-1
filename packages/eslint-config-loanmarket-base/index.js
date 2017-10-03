@@ -50,6 +50,10 @@ module.exports = {
     "no-unused-expressions": [
       "error", { "allowShortCircuit": true, "allowTernary": false }
     ],
-    "no-plusplus": 0
+    "no-plusplus": 0,
+    "prefer-destructuring": 0,
+    "function-paren-newline": 0,
+    "object-curly-newline": 0,
+    "padded-blocks": ["warn", "never"]
   }
 };
