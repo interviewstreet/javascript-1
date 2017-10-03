@@ -27,3 +27,31 @@ Create a `.eslintrc.json` file in the base of your new projects directory.
 ```
 
 For more advance usage checkout out the eslint documentation - https://eslint.org/docs/user-guide/configuring
+
+## Using with Code Climate
+
+Currently Code Climate does not support importing eslint configs through NPM.
+To circumvent this limitation we provide a compiled eslint file that you can import directly in your `.codeclimate.yml`.
+
+```yml
+engines:
+  eslint:
+    enabled: true
+    channel: "eslint-4"
+    config:
+      config: ./node_modules/eslint-config-loanmarket-react/dist/.eslintrc.json
+  duplication:
+    enabled: true
+    config:
+      languages:
+         javascript:
+           mass_threshold: 50
+    checks:
+      Similar code:
+        enabled: false
+ratings:
+  paths:
+    - "**.js"
+```
+
+You will need to exclude this file from your `.gitignore`, so that the codeclimate can access it directly.
