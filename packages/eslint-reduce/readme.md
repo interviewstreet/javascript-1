@@ -1,7 +1,8 @@
 # eslint-reduce
 
-This is a simple utility for reducing your eslint config into a single `.eslintrc.json` file without any external dependencies.
+[![Build Status](https://travis-ci.org/loanmarket/javascript.svg?branch=master)](https://travis-ci.org/loanmarket/javascript)
 
+This is a simple utility for reducing your eslint config into a single `.eslintrc.json` file without any external dependencies.
 
 We made this tool to help us manage shared our eslint configs across multiple projects while using [Code Climate](codeclimate.com) for quality control.
 
