@@ -12,5 +12,5 @@ These are our shared linter configurations
 
 ## CLI's and Utilities
 
-- [eslint-reduce](https://github.com/loanmarket/javascript/tree/master/packages/eslint-reduce) / [npm](https://www.npmjs.com/package/eslint-config-loanmarket-react)
+- [eslint-reduce](https://github.com/loanmarket/javascript/tree/master/packages/eslint-reduce) / [npm](https://www.npmjs.com/package/eslint-reduce)
   A utility to merge eslint configs into a single eslintrc.json file.
