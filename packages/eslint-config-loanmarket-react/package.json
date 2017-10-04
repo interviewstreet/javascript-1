@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-loanmarket-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Loan Market’s React ES lint config",
   "main": "index.js",
   "scripts": {
