@@ -1,0 +1,37 @@
+{
+  "name": "eslint-reduce",
+  "version": "1.0.0",
+  "description": "\"a utility to merge eslint configs into a single eslintrc.json file\"",
+  "main": "index.js",
+  "bin": {
+    "eslint-reduce": "bin/cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "proxyquire": "^1.8.0",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "scripts": {
+    "fix-lint": "standard --fix",
+    "test-sans-lint": "node test/test.js",
+    "test": "standard && node test/test.js | faucet"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "codeclimate",
+    "merge",
+    "reduce"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loanmarket/javascript.git"
+  },
+  "author": "Benjamin Forster",
+  "license": "MIT"
+}

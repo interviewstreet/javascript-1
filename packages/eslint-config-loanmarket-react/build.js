@@ -2,7 +2,7 @@ const fs = require('fs');
 const _ = require('lodash');
 const config = require('./index.js');
 
-const exclude = [];
+const exclude = []
 
 function reduceExtensions(eslintConfig) {
   if (eslintConfig.extends) {

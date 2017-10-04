@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "6"
+env:
+  - TEST_DIR=packages/eslint-reduce
+  # can specify multiple build directories here
+script: cd $TEST_DIR && npm install && npm test
