@@ -20,9 +20,6 @@ module.exports = {
     "no-param-reassign": ["error", { "props": false } ],
     "class-methods-use-this": ["error", { "exceptMethods": ["getChildContext", "componentDidMount", "componentWillMount", "componentWillUpdate", "componentWillReceiveProps"] }],
     "no-underscore-dangle": 0,
-    "react/forbid-prop-types": [
-      2, { "forbid": ["any", "array"] }
-    ],
     "new-cap": ["error", {
       "capIsNew": false
     }],
