@@ -33,6 +33,16 @@ module.exports = {
     "react/display-name": 0,
     "jsx-a11y/img-has-alt": 0,
     "jsx-a11y/no-static-element-interactions": 0,
-    "mocha/no-exclusive-tests": "error"
+    "mocha/no-exclusive-tests": "error",
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ]
   }
 };
