@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-loanmarket-base",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Loan Market’s base JS ES lint config",
   "main": "index.js",
   "dependencies": {
