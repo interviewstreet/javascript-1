@@ -51,6 +51,16 @@ module.exports = {
     "prefer-destructuring": 0,
     "function-paren-newline": 0,
     "object-curly-newline": 0,
-    "padded-blocks": ["warn", "never"]
+    "padded-blocks": ["warn", "never"],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "ignore"
+      }
+    ]
   }
 };
