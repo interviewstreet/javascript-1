@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-loanmarket-progressive-intro",
+  "version": "1.0.5",
+  "description": "Loan Market’s base JS ES lint config",
+  "main": "index.js",
+  "dependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.7.2",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint-reduce": "^1.0.0"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "eslint-reduce -v -f index.js -o ./dist/.eslintrc.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loanmarket/javascript.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "loanmarket",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Benjamin Forster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loanmarket/javascript/issues"
+  },
+  "homepage": "https://github.com/loanmarket/javascript#readme"
+}
